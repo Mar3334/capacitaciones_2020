@@ -78,13 +78,11 @@ while True:
     if key == ord('e'):
         action = np.array([0.44, -0.44])
         
-    if key == ord('z'):
+    if key == ord('c'):
         action = np.array([-0.44, 0.44])
         
-    if key == ord('c'):
+    if key == ord('z'):
         action = np.array([-0.44, -0.44])
-
-    ### AGREGAR MÁS COMPORTAMIENTOS ###
 
 
 
