@@ -66,6 +66,24 @@ while True:
     if key == ord('s'):
         action = np.array([-0.44, 0.0])
 
+    if key == ord('a'):
+        action = np.array([0.0, 0.44])
+
+    if key == ord('d'):
+        action = np.array([0.0, -0.44])
+        
+    if key == ord('q'):
+        action = np.array([0.44, 0.44])
+
+    if key == ord('e'):
+        action = np.array([0.44, -0.44])
+        
+    if key == ord('z'):
+        action = np.array([-0.44, 0.44])
+        
+    if key == ord('c'):
+        action = np.array([-0.44, -0.44])
+
     ### AGREGAR MÁS COMPORTAMIENTOS ###
 
 
