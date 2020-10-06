@@ -62,8 +62,27 @@ while True:
     # Esto es avanzar recto hacia adelante al apretar la tecla w
     if key == ord('s'):
         action = np.array([0.44, 0.0])
+        
+    if key == ord('s'):
+        action = np.array([-0.44, 0.0])
 
-    ### AGREGAR MÁS COMPORTAMIENTOS ###
+    if key == ord('a'):
+        action = np.array([0.0, 0.44])
+
+    if key == ord('d'):
+        action = np.array([0.0, -0.44])
+        
+    if key == ord('q'):
+        action = np.array([0.44, 0.44])
+
+    if key == ord('e'):
+        action = np.array([0.44, -0.44])
+        
+    if key == ord('c'):
+        action = np.array([-0.44, 0.44])
+        
+    if key == ord('z'):
+        action = np.array([-0.44, -0.44])
 
 
 
